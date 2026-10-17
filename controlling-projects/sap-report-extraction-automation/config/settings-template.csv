@@ -1,0 +1,15 @@
+Setting,Value,Notes
+SAP Shortcut,C:\Users\<you>\Desktop\<system>.sap,Saved SAP Logon shortcut (carries connection + SSO settings)
+Selection Folder,C:\Path\To\Selections,Folder containing the saved multi-value selection file
+Selection File,selection.txt,Text file saved from SAP's multiple-selection popup
+Year,2026,Fiscal year
+Period,10,Posting period
+(blank),,
+Output Folder,C:\Path\To\Output,Where the export lands
+Output File Name,export.xlsx,
+Transaction Code,<REPORT_TCODE>,The report your team runs
+Controlling Area,<CO_AREA>,Value for the controlling-area popup
+Layout Name,<LAYOUT_VARIANT>,Exact ALV layout name
+Value Filter,<FILTER>,Cost element / account filter
+Drill Text,<LABEL_TEXT>,Text used by Find to reach the target line
+Kill SAP when done,no,yes = close SAP after the run
